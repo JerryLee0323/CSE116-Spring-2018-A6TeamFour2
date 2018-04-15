@@ -1,0 +1,52 @@
+Every single method in actualcode.java goes here ^^
+
+Method: winning(); 
+Test Cases:-BlueAgentWinningTest(); -RedAgentWinningTest();
+-AssassintWinningTest(); -NooneWinningTest();
+Functionality: Method defined which correctly returns whether or not the Board 
+is in one of the winning states
+
+Method: AssassinMethod();
+Test Cases: -AssassinRevealedBuleAgentWins(); 
+-AssassinRevealedRedAgentWins(); 
+-AssassinIsNotRevealed()
+Functionality: 
+ Method defined which correctly returns which team did not lose (i.e., win) when
+  the Assassin was revealed
+
+ Method: checkLegalClue();
+ Test Cases: 
+-legalClueTest()
+-illegalClueTest()
+ Functionality: 
+Returns true if clue is not equal to a name on the list or if the name was already
+ revealed; false otherwise.
+ 
+ Method: updateLocation();
+ Test Cases: -updateLocationNullTest()
+-updateLocationTest()
+ Functionality: 
+After checking if Location contained the correct team, decrements the count.
+ 
+ Method: readCodename();
+ Test Cases: readCodenameTest();
+ Functionality: This method reads code names from the text file and store it in an 
+ array list.
+ 
+ Method: selectCodenames();
+ Test Cases: selectCodenamesTest();
+ Functionality: This method initializes a private instance variable string array with
+  25 distinct  codenames that 
+ are randomly select from a arraylist that return from method readcodename();.
+ 
+ Method: generateAssignments();
+ Test Cases: generateAssignmentsTest();
+ Functionality: This method initializes a private instance variable string array that
+  include 9 “Red Agent”s, 
+ 8 “Blue Agent”s, 7 “Innocent Bystander”s, and 1 “Assassin” in random order. 
+ 
+ Method: Board();
+ Test Cases: creatingBoardTest();
+ Functionality: When Board is instantiated, this sets up the game where red team goes 
+ first, there are 25 locations on the board, and each of the 25 is assigned a codeName,
+  team, and a Not Revealed.

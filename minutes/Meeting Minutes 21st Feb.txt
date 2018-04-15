@@ -1,0 +1,70 @@
+﻿Meeting Minutes for 21 Feb 2018:
+* Meeting Attendance:  [1 minute]
+Urjitha (M)
+Jerry
+Johnathan
+Yeqian
+Xiangwei
+* Tasks completed since last meeting [1-2 minutes]
+* Tasks worked upon but not completed since last meeting [2-4 minutes]
+* Goals for the next meeting [20+ minutes]
+Work division
+1.   Submission includes an updated tests.txt file listsing the class and method name of the test defined for each of these requirements [2 points]JL
+2.     Defines a Board class contains 25 Location instances [6 points]UJ
+3.   Correctly reads codenames from a file named GameWords.txt and stores them in a List [10 points] (sample files you can use are here and here)UJ
+4.   Creates List containing 25 distinct codenames selected at random [10 points] (hint: Java has some methods that could be a starting point for your implementation) yql
+5.   Creates List containing randomly generated assignments for each of the 9 Red Agents, 8 Blue Agents, 7 Innocent Bystanders, and 1 Assassin [10 points] (hint: Java has some methods that could be a starting point for how to randomly order locations) yql
+6.   When game started, it is Red team's move and each of Board's 25 Location instances is assigned a codename, Person, and is Not Revealed [15 points] JL
+7.     Method defined which correctly returns if a clue is legal or illegal (clues cannot equal a current codename unless that codename is in a locations that was already Revealed) [10 points] jw
+8.     Method defined which decrements the count, updates a Location when the Location's codename was selected, and returns if the Location contained the current team's Agent [10 points] jw
+9.   Method defined which correctly returns whether or not the Board is in one of the winning states [15 points] xc
+10.            Method defined which correctly returns which team did not lose (i.e., win) when the Assassin was revealed [10 points] xc
+11.             All non-JUnit classes, methods, and instance variables are commented using Javadoc [2 points]JL
+ 
+JL- 1(2p), 6(15p), 11(2p) =19p
+XC-9(15p), 10(10p) =25p
+JW-7(10p), 8(10p) =20p
+YQL-4(10p), 5(10p) =20p
+UJ-2(6p), 3(10p) =16p
+ 
+* Schedule for the next week's set of pair programming meetings [3-4 minutes]
+Urjitha & Johnathan – 23 Feb 2018
+Jerry & Xiangwei – 26th Feb 2018
+Yeqian & Johnathan – 26th Feb 2018
+Urjitha & jerry– 28th Feb 2018
+Xiangwei & yeqian – 1st march 2018
+Meeting Minutes for 21 Feb 2018:
+* Meeting Attendance:  [1 minute]
+Urjitha (M)
+Jerry
+Johnathan
+Yeqian
+Xiangwei
+* Tasks completed since last meeting [1-2 minutes]
+* Tasks worked upon but not completed since last meeting [2-4 minutes]
+* Goals for the next meeting [20+ minutes]
+Work division
+1.   Submission includes an updated tests.txt file listsing the class and method name of the test defined for each of these requirements [2 points]JL
+2.     Defines a Board class contains 25 Location instances [6 points]UJ
+3.   Correctly reads codenames from a file named GameWords.txt and stores them in a List [10 points] (sample files you can use are here and here)UJ
+4.   Creates List containing 25 distinct codenames selected at random [10 points] (hint: Java has some methods that could be a starting point for your implementation) yql
+5.   Creates List containing randomly generated assignments for each of the 9 Red Agents, 8 Blue Agents, 7 Innocent Bystanders, and 1 Assassin [10 points] (hint: Java has some methods that could be a starting point for how to randomly order locations) yql
+6.   When game started, it is Red team's move and each of Board's 25 Location instances is assigned a codename, Person, and is Not Revealed [15 points] JL
+7.     Method defined which correctly returns if a clue is legal or illegal (clues cannot equal a current codename unless that codename is in a locations that was already Revealed) [10 points] jw
+8.     Method defined which decrements the count, updates a Location when the Location's codename was selected, and returns if the Location contained the current team's Agent [10 points] jw
+9.   Method defined which correctly returns whether or not the Board is in one of the winning states [15 points] xc
+10.            Method defined which correctly returns which team did not lose (i.e., win) when the Assassin was revealed [10 points] xc
+11.             All non-JUnit classes, methods, and instance variables are commented using Javadoc [2 points]JL
+ 
+JL- 1(2p), 6(15p), 11(2p) =19p
+XC-9(15p), 10(10p) =25p
+JW-7(10p), 8(10p) =20p
+YQL-4(10p), 5(10p) =20p
+UJ-2(6p), 3(10p) =16p
+ 
+* Schedule for the next week's set of pair programming meetings [3-4 minutes]
+Urjitha & Johnathan – 23 Feb 2018
+Jerry & Xiangwei – 23 Feb 2018
+Yeqian & Johnathan – 24 Feb 2018
+Urjitha & jerry– 27 Feb 2018
+Xiangwei & yeqian – 27 march 2018
